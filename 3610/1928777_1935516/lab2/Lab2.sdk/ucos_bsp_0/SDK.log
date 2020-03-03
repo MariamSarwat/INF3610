@@ -56,3 +56,4 @@ con
 ----------------End of Script----------------
 
 12:09:18 INFO  : Launch script is exported to file 'C:\TEMP\INF3610\3610\1928777_1935516\lab2\Lab2.sdk\ucos_bsp_0\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_lab2.elf_on_local.tcl'
+14:23:45 INFO  : Disconnected from the channel tcfchan#1.

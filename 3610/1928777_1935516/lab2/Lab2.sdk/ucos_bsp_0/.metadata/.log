@@ -19455,3 +19455,12 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-7
 
 !ENTRY com.xilinx.sdk.utils 0 0 2020-03-03 12:14:55.166
 !MESSAGE XSCT command with result: [::hsi::utils::closesw C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/ucos_bsp_0/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-03-03 14:23:45.867
+!MESSAGE Executed Webtalk command
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-03 14:23:45.887
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-1205
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-03 14:23:45.895
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-1205
