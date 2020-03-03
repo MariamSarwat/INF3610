@@ -1,0 +1,166 @@
+14:18:02 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/simAvion.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/simAvion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/simAvion.d" -MT"src/simAvion.o" -o "src/simAvion.o" "../src/simAvion.c"
+In file included from ../src/simAvion.c:18:0:
+../src/simAvion.h:87:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'enum'
+ enum Aeroport { YUL, YYZ, YVR, PEK, DBX, LGA, HND, LAX, CDG, AMS, NB_AEROPORTS };
+ ^~~~
+../src/simAvion.c: In function 'initialize_gpio':
+../src/simAvion.c:44:2: error: 'bsp_init' undeclared (first use in this function); did you mean 'isprint'?
+  bsp_init.initialize_gpio();
+  ^~~~~~~~
+  isprint
+../src/simAvion.c:44:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/simAvion.c: In function 'create_tasks':
+../src/simAvion.c:100:16: warning: unused variable 'verificationTCB' [-Wunused-variable]
+  static OS_TCB verificationTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:99:16: warning: unused variable 'statistiquesTCB' [-Wunused-variable]
+  static OS_TCB statistiquesTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:98:16: warning: unused variable 'decollageTCB' [-Wunused-variable]
+  static OS_TCB decollageTCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:97:16: warning: unused variable 'terminal1TCB' [-Wunused-variable]
+  static OS_TCB terminal1TCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:96:16: warning: unused variable 'terminal0TCB' [-Wunused-variable]
+  static OS_TCB terminal0TCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:95:16: warning: unused variable 'atterrissageTCB' [-Wunused-variable]
+  static OS_TCB atterrissageTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:94:16: warning: unused variable 'generationTCB' [-Wunused-variable]
+  static OS_TCB generationTCB;
+                ^~~~~~~~~~~~~
+../src/simAvion.c:91:17: warning: unused variable 'verificationStk' [-Wunused-variable]
+  static CPU_STK verificationStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~
+../src/simAvion.c:90:17: warning: unused variable 'statistiquesStk' [-Wunused-variable]
+  static CPU_STK statistiquesStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~
+../src/simAvion.c:89:17: warning: unused variable 'decollageStk' [-Wunused-variable]
+  static CPU_STK decollageStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:88:17: warning: unused variable 'terminal1Stk' [-Wunused-variable]
+  static CPU_STK terminal1Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:87:17: warning: unused variable 'terminal0Stk' [-Wunused-variable]
+  static CPU_STK terminal0Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:86:17: warning: unused variable 'atterrissage0Stk' [-Wunused-variable]
+  static CPU_STK atterrissage0Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~~
+../src/simAvion.c:85:17: warning: unused variable 'generationStk' [-Wunused-variable]
+  static CPU_STK generationStk[TASK_STK_SIZE]; //Stack of each task
+                 ^~~~~~~~~~~~~
+../src/simAvion.c: In function 'create_events':
+../src/simAvion.c:111:9: warning: unused variable 'err' [-Wunused-variable]
+  OS_ERR err;
+         ^~~
+../src/simAvion.c: In function 'generation':
+../src/simAvion.c:127:9: warning: unused variable 'err' [-Wunused-variable]
+  OS_ERR err;
+         ^~~
+../src/simAvion.c: In function 'atterrissage':
+../src/simAvion.c:159:1: error: expected statement before ']' token
+ ] xil_printf("Tache atterrissage lancee\n");
+ ^
+../src/simAvion.c:158:9: warning: unused variable 'avion' [-Wunused-variable]
+  Avion* avion = NULL;
+         ^~~~~
+../src/simAvion.c:156:14: warning: unused variable 'msg_size' [-Wunused-variable]
+  OS_MSG_SIZE msg_size;
+              ^~~~~~~~
+../src/simAvion.c:155:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c: At top level:
+../src/simAvion.c:171:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/simAvion.c: In function 'terminal':
+../src/simAvion.c:178:20: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int numTerminal = (int*)data;
+                    ^
+../src/simAvion.c:177:14: warning: unused variable 'msg_size' [-Wunused-variable]
+  OS_MSG_SIZE msg_size;
+              ^~~~~~~~
+../src/simAvion.c:176:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c: In function 'decollage':
+../src/simAvion.c:206:9: warning: unused variable 'avion' [-Wunused-variable]
+  Avion* avion = NULL;
+         ^~~~~
+../src/simAvion.c:204:14: warning: unused variable 'msg_size' [-Wunused-variable]
+  OS_MSG_SIZE msg_size;
+              ^~~~~~~~
+../src/simAvion.c:203:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c: In function 'statistiques':
+../src/simAvion.c:221:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c:220:9: warning: unused variable 'err' [-Wunused-variable]
+  OS_ERR err;
+         ^~~
+../src/simAvion.c: In function 'verification':
+../src/simAvion.c:249:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c:248:9: warning: unused variable 'err' [-Wunused-variable]
+  OS_ERR err;
+         ^~~
+At top level:
+../src/simAvion.c:85:17: warning: 'generationStk' defined but not used [-Wunused-variable]
+  static CPU_STK generationStk[TASK_STK_SIZE]; //Stack of each task
+                 ^~~~~~~~~~~~~
+../src/simAvion.c:86:17: warning: 'atterrissage0Stk' defined but not used [-Wunused-variable]
+  static CPU_STK atterrissage0Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~~
+../src/simAvion.c:87:17: warning: 'terminal0Stk' defined but not used [-Wunused-variable]
+  static CPU_STK terminal0Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:88:17: warning: 'terminal1Stk' defined but not used [-Wunused-variable]
+  static CPU_STK terminal1Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:89:17: warning: 'decollageStk' defined but not used [-Wunused-variable]
+  static CPU_STK decollageStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:90:17: warning: 'statistiquesStk' defined but not used [-Wunused-variable]
+  static CPU_STK statistiquesStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~
+../src/simAvion.c:91:17: warning: 'verificationStk' defined but not used [-Wunused-variable]
+  static CPU_STK verificationStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~
+../src/simAvion.c:94:16: warning: 'generationTCB' defined but not used [-Wunused-variable]
+  static OS_TCB generationTCB;
+                ^~~~~~~~~~~~~
+../src/simAvion.c:95:16: warning: 'atterrissageTCB' defined but not used [-Wunused-variable]
+  static OS_TCB atterrissageTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:96:16: warning: 'terminal0TCB' defined but not used [-Wunused-variable]
+  static OS_TCB terminal0TCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:97:16: warning: 'terminal1TCB' defined but not used [-Wunused-variable]
+  static OS_TCB terminal1TCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:98:16: warning: 'decollageTCB' defined but not used [-Wunused-variable]
+  static OS_TCB decollageTCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:99:16: warning: 'statistiquesTCB' defined but not used [-Wunused-variable]
+  static OS_TCB statistiquesTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:100:16: warning: 'verificationTCB' defined but not used [-Wunused-variable]
+  static OS_TCB verificationTCB;
+                ^~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/simAvion.o] Error 1
+
+14:18:03 Build Finished (took 364ms)
+

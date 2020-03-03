@@ -23,31 +23,31 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/TEMP/3610/1928777_1935516/lab2/Lab2.cache/wt [current_project]
-set_property parent.project_path C:/TEMP/3610/1928777_1935516/lab2/Lab2.xpr [current_project]
+set_property webtalk.parent_dir C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.cache/wt [current_project]
+set_property parent.project_path C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
-set_property ip_output_repo c:/TEMP/3610/1928777_1935516/lab2/Lab2.cache/ip [current_project]
+set_property ip_output_repo c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_verilog -library xil_defaultlib C:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
-add_files C:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/design_1.bd
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/design_1_fit_timer_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_1_1/design_1_fit_timer_1_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_1/design_1_rst_ps7_0_100M_1_board.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_1/design_1_rst_ps7_0_100M_1.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_1/design_1_rst_ps7_0_100M_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_board.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_intc_0_1/design_1_axi_intc_0_1.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_intc_0_1/design_1_axi_intc_0_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_intc_0_1/design_1_axi_intc_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all C:/TEMP/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/design_1_ooc.xdc]
+read_verilog -library xil_defaultlib C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+add_files C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/design_1.bd
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/design_1_fit_timer_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_1_1/design_1_fit_timer_1_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_1/design_1_rst_ps7_0_100M_1_board.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_1/design_1_rst_ps7_0_100M_1.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_1/design_1_rst_ps7_0_100M_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_board.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_intc_0_1/design_1_axi_intc_0_1.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_intc_0_1/design_1_axi_intc_0_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_axi_intc_0_1/design_1_axi_intc_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/design_1_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
