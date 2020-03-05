@@ -18,7 +18,6 @@
 *                                              CONSTANTS
 *********************************************************************************************************
 */
-
 #define TASK_STK_SIZE       16384            // Size of each task's stacks (# of WORDs)
 
 #define	VERIFICATION_PRIO	3				// Defining Priority of each task
@@ -31,11 +30,11 @@
 
 //Intervalles criteres de retard
 #define BORNE_INF_LOW      	0
-#define BORNE_SUP_LOW      	2
-#define BORNE_INF_MEDIUM   	3
-#define BORNE_SUP_MEDIUM  	5
-#define BORNE_INF_HIGH     	6
-#define BORNE_SUP_HIGH     	8
+#define BORNE_SUP_LOW      	19
+#define BORNE_INF_MEDIUM   	20
+#define BORNE_SUP_MEDIUM  	39
+#define BORNE_INF_HIGH     	40
+#define BORNE_SUP_HIGH      59
 /*
 *********************************************************************************************************
 *                                             VARIABLES
@@ -62,7 +61,23 @@ OS_TCB verificationTCB;
 *                                               QUEUES
 *********************************************************************************************************
 */
+OS_Q Q_atterrissage_high;
+void* Q_atterrissage_high_data[3];
 
+OS_Q Q_atterrissage_medium;
+void* Q_atterrissage_medium_data[4];
+
+OS_Q Q_atterrissage_low;
+void* Q_atterrissage_low_data[6];
+
+OS_Q Q_decollage;
+void* Q_decollage_data[10];
+
+OS_Q Q_terminal_1;
+void* Q_terminal_1_data[1];
+
+OS_Q Q_terminal_2;
+void* Q_terminal_2_data[1];
 /*
 *********************************************************************************************************
 *                                              FLAGS
@@ -75,8 +90,16 @@ OS_TCB verificationTCB;
 *                                              SEMAPHORES
 *********************************************************************************************************
 */
-sem_t
 
+OS_SEM semGeneration;
+OS_SEM semVerification;
+OS_SEM semStatistiques;
+
+OS_MUTEX mutexPrint;
+OS_MUTEX mutexDecollage;
+OS_MUTEX mutexAtterrissage;
+OS_MUTEX mutexTerminal1;
+OS_MUTEX mutexTerminal2;
 
 /*
 *********************************************************************************************************
@@ -115,14 +138,14 @@ void create_application();
 int create_tasks();
 int create_events();
 
-void	generation(void *data);
-void	atterrissage(void *data);
-void    terminal(void *data);
-void    decollage(void *data);
-void	remplirAvion(Avion* avion);
-void	statistiques(void *data);
-void 	verification(void* data);
-
-
-
+int longueurFile(OS_Q q);
+void generation(void *data);
+void atterrissage(void *data);
+void terminal(void *data);
+void decollage(void *data);
+void remplirAvion(Avion* avion);
+void statistiques(void *data);
+void verification(void* data);
+void errMsg(INT8U err, char* errMSg);
+void print(char* msg);
 #endif /* SRC_SIMAVION_H_ */

@@ -57,3 +57,112 @@ con
 
 12:09:18 INFO  : Launch script is exported to file 'C:\TEMP\INF3610\3610\1928777_1935516\lab2\Lab2.sdk\ucos_bsp_0\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_lab2.elf_on_local.tcl'
 14:23:45 INFO  : Disconnected from the channel tcfchan#1.
+12:05:14 INFO  : Registering command handlers for SDK TCF services
+12:05:14 INFO  : Launching XSCT server: xsct.bat -interactive C:\TEMP\INF3610\3610\1928777_1935516\lab2\Lab2.sdk\ucos_bsp_0\temp_xsdb_launch_script.tcl
+12:05:16 INFO  : XSCT server has started successfully.
+12:05:17 INFO  : Successfully done setting XSCT server connection channel  
+12:05:17 INFO  : Restoring local repository preferences: 
+		 C:\TEMP\INF3610\ucos_v1_44\ucos
+		 C:\TEMP\INF3610\ucos_v1_44
+12:05:17 INFO  : Successfully done setting SDK workspace  
+12:05:17 INFO  : Processing command line option -hwspec C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf.
+12:05:17 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:05:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1583427778154,  Project:1583252764400
+12:05:20 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf.
+12:05:48 INFO  : Copied contents of C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+12:05:52 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:05:57 INFO  : 
+12:05:58 INFO  : Updating hardware inferred compiler options for Lab2.
+12:05:58 INFO  : Clearing existing target manager status.
+12:06:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685962" && level==0} -index 1' command is executed.
+12:06:13 INFO  : FPGA configured successfully with bitstream "C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:06:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685962" && level==0} -index 1' command is executed.
+12:06:40 INFO  : 'fpga -state' command is executed.
+12:06:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:40 INFO  : Jtag cable 'Digilent Zed 210248685962' is selected.
+12:06:40 INFO  : 'jtag frequency' command is executed.
+12:06:40 INFO  : Sourcing of 'C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:06:40 INFO  : Context for 'APU' is selected.
+12:06:40 INFO  : Hardware design information is loaded from 'C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/system.hdf'.
+12:06:40 INFO  : 'configparams force-mem-access 1' command is executed.
+12:06:40 INFO  : Context for 'APU' is selected.
+12:06:40 INFO  : 'stop' command is executed.
+12:06:40 INFO  : 'ps7_init' command is executed.
+12:06:40 INFO  : 'ps7_post_config' command is executed.
+12:06:40 INFO  : 'configparams force-mem-access 0' command is executed.
+12:06:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685962"} -index 0
+loadhw -hw C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685962"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:06:40 INFO  : Memory regions updated for context APU
+12:06:40 INFO  : Launch script is exported to file 'C:\TEMP\INF3610\3610\1928777_1935516\lab2\Lab2.sdk\ucos_bsp_0\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_lab2.elf_on_local.tcl'
+16:18:36 INFO  : Disconnected from the channel tcfchan#1.
+16:18:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685962" && level==0} -index 1' command is executed.
+16:18:45 INFO  : 'fpga -state' command is executed.
+16:18:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:18:45 INFO  : Jtag cable 'Digilent Zed 210248685962' is selected.
+16:18:45 INFO  : 'jtag frequency' command is executed.
+16:18:45 INFO  : Sourcing of 'C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:18:45 INFO  : Context for 'APU' is selected.
+16:18:47 INFO  : Hardware design information is loaded from 'C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/system.hdf'.
+16:18:47 INFO  : 'configparams force-mem-access 1' command is executed.
+16:18:47 INFO  : Context for 'APU' is selected.
+16:18:47 INFO  : 'stop' command is executed.
+16:18:48 INFO  : 'ps7_init' command is executed.
+16:18:48 INFO  : 'ps7_post_config' command is executed.
+16:18:48 INFO  : 'configparams force-mem-access 0' command is executed.
+16:18:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685962"} -index 0
+loadhw -hw C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685962"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:18:48 INFO  : Memory regions updated for context APU
+16:18:48 INFO  : Launch script is exported to file 'C:\TEMP\INF3610\3610\1928777_1935516\lab2\Lab2.sdk\ucos_bsp_0\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_lab2.elf_on_local.tcl'
+16:20:01 INFO  : Disconnected from the channel tcfchan#2.
+16:20:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685962" && level==0} -index 1' command is executed.
+16:20:04 INFO  : 'fpga -state' command is executed.
+16:20:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:20:04 INFO  : Jtag cable 'Digilent Zed 210248685962' is selected.
+16:20:04 INFO  : 'jtag frequency' command is executed.
+16:20:04 INFO  : Sourcing of 'C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:20:04 INFO  : Context for 'APU' is selected.
+16:20:04 INFO  : Hardware design information is loaded from 'C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/system.hdf'.
+16:20:04 INFO  : 'configparams force-mem-access 1' command is executed.
+16:20:04 INFO  : Context for 'APU' is selected.
+16:20:04 INFO  : 'stop' command is executed.
+16:20:04 INFO  : 'ps7_init' command is executed.
+16:20:04 INFO  : 'ps7_post_config' command is executed.
+16:20:04 INFO  : 'configparams force-mem-access 0' command is executed.
+16:20:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685962"} -index 0
+loadhw -hw C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685962"} -index 0
+stop
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:20:04 INFO  : Memory regions updated for context APU
+16:20:04 INFO  : Launch script is exported to file 'C:\TEMP\INF3610\3610\1928777_1935516\lab2\Lab2.sdk\ucos_bsp_0\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_lab2.elf_on_local.tcl'

@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Tue Mar  3 11:24:07 2020
-# Process ID: 33348
+# Start of session at: Thu Mar  5 12:00:58 2020
+# Process ID: 2184
 # Current directory: C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/design_1_wrapper.vds
@@ -18,22 +18,22 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 29960 
+INFO: Helper process launched with PID 6272 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 430.711 ; gain = 103.043
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 430.371 ; gain = 103.289
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_0_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_0_1' (1#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_intc_0_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_axi_intc_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_intc_0_1' (2#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_axi_intc_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_fit_timer_0_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_fit_timer_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_fit_timer_0_1' (3#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_fit_timer_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_fit_timer_1_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_fit_timer_1_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_fit_timer_1_1' (4#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_fit_timer_1_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_processing_system7_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_1' (5#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_processing_system7_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_0_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_0_1' (1#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_intc_0_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_axi_intc_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_intc_0_1' (2#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_axi_intc_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_fit_timer_0_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_fit_timer_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_fit_timer_0_1' (3#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_fit_timer_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_fit_timer_1_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_fit_timer_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_fit_timer_1_1' (4#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_fit_timer_1_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_processing_system7_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_1' (5#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_processing_system7_0_1_stub.v:6]
 WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'design_1_processing_system7_0_1' requires 69 connections, but only 64 given [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:221]
 INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:382]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_15SPJYW' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:927]
@@ -41,15 +41,15 @@ INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_15SPJYW' (6#1) [
 INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_XU9C55' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:1059]
 INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_XU9C55' (7#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:1059]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:1191]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (8#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (8#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_auto_pc_1_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (9#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:1191]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_xbar_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_1' (10#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_xbar_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_1' (10#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_xbar_1_stub.v:6]
 WARNING: [Synth 8-350] instance 'xbar' of module 'design_1_xbar_1' requires 40 connections, but only 38 given [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:886]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_1' (11#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:382]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_rst_ps7_0_100M_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_1' (12#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-33348-L3712-10/realtime/design_1_rst_ps7_0_100M_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_1' [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_rst_ps7_0_100M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_1' (12#1) [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/.Xil/Vivado-2184-L3712-19/realtime/design_1_rst_ps7_0_100M_1_stub.v:6]
 WARNING: [Synth 8-350] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_1' requires 10 connections, but only 7 given [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/synth/design_1.v:367]
 INFO: [Synth 8-6157] synthesizing module 'design_1_xlconcat_0_1' [c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_0_1/synth/design_1_xlconcat_0_1.v:57]
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat' [c:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
@@ -137,7 +137,7 @@ WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port 
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port S00_ACLK
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port S00_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 486.602 ; gain = 158.934
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 487.301 ; gain = 160.219
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -150,10 +150,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 486.602 ; gain = 158.934
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 487.301 ; gain = 160.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 486.602 ; gain = 158.934
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 487.301 ; gain = 160.219
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -180,21 +180,21 @@ Parsing XDC File [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/do
 Finished Parsing XDC File [C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 786.910 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 787.551 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 786.910 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 786.910 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 787.563 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 787.563 ; gain = 0.012
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 786.910 ; gain = 459.242
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 787.563 ; gain = 460.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 786.910 ; gain = 459.242
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 787.563 ; gain = 460.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -471,10 +471,10 @@ Applied set_property DONT_TOUCH = true for design_1_i/axi_intc_0. (constraint fi
 Applied set_property DONT_TOUCH = true for design_1_i/xlconcat_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 786.910 ; gain = 459.242
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 787.563 ; gain = 460.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 786.910 ; gain = 459.242
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 787.563 ; gain = 460.480
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -516,7 +516,7 @@ WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port 
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port S00_ACLK
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port S00_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 786.910 ; gain = 459.242
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 787.563 ; gain = 460.480
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -530,13 +530,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/processing_system7_0/FCLK_CLK0' to pin 'design_1_i/processing_system7_0/bbstub_FCLK_CLK0/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 828.070 ; gain = 500.402
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 829.727 ; gain = 502.645
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 828.145 ; gain = 500.477
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 829.879 ; gain = 502.797
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -548,7 +548,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 838.172 ; gain = 510.504
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 839.902 ; gain = 512.820
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -572,7 +572,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 838.172 ; gain = 510.504
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 839.902 ; gain = 512.820
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -585,7 +585,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 838.172 ; gain = 510.504
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 839.902 ; gain = 512.820
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -597,25 +597,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 838.172 ; gain = 510.504
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 839.902 ; gain = 512.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 838.172 ; gain = 510.504
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 839.902 ; gain = 512.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 838.172 ; gain = 510.504
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 839.902 ; gain = 512.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 838.172 ; gain = 510.504
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 839.902 ; gain = 512.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -662,25 +662,25 @@ Report Instance Areas:
 |5     |    xlconcat_0       |design_1_xlconcat_0_1       |     0|
 +------+---------------------+----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 838.172 ; gain = 510.504
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 839.902 ; gain = 512.820
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 838.172 ; gain = 210.195
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 838.172 ; gain = 510.504
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 839.902 ; gain = 212.559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 839.902 ; gain = 512.820
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 851.508 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 849.930 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 46 Infos, 54 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 851.523 ; gain = 530.762
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 851.523 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 850.082 ; gain = 529.902
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 850.082 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Mar  3 11:24:36 2020...
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  5 12:01:28 2020...

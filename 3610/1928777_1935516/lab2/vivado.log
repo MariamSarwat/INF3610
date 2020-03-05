@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar  5 11:57:32 2020
+# Process ID: 11528
+# Current directory: C:/TEMP/INF3610/3610/1928777_1935516/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent952 C:\TEMP\INF3610\3610\1928777_1935516\lab2\Lab2.xpr
+# Log file: C:/TEMP/INF3610/3610/1928777_1935516/lab2/vivado.log
+# Journal file: C:/TEMP/INF3610/3610/1928777_1935516/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Logiciels/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 727.953 ; gain = 151.492
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  5 11:58:27 2020...
+rdware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk -hwspec C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk -hwspec C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk -hwspec C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk -hwspec C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace C:/TEMP/INF3610/3610/1928777_1935516/lab2 -hwspec C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/TEMP/INF3610/3610/1928777_1935516/lab2 -hwspec C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Mar  5 12:00:56 2020] Launched synth_1...
+Run output will be captured here: C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/synth_1/runme.log
+[Thu Mar  5 12:00:56 2020] Launched impl_1...
+Run output will be captured here: C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/impl_1/runme.log
+file copy -force C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.runs/impl_1/design_1_wrapper.sysdef C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0 -hwspec C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/ucos_bsp_0 -hwspec C:/TEMP/INF3610/3610/1928777_1935516/lab2/Lab2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

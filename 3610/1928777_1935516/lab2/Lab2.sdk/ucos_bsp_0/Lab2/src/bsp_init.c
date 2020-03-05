@@ -16,21 +16,17 @@ XIntc axi_intc;
 XGpioPs gpSwitch;
 
 OS_TCB StartupTaskTCB;
-
 CPU_STK StartupTaskStk[UCOS_START_TASK_STACK_SIZE];
 
 int initialize_axi_intc() {
-	int status;
-
-	status = Xintc_Initialize(&axi_intc, XPAR_AXI_INTC_0_DEVICE_ID);
+	int status = Xintc_Initialize(&axi_intc, XPAR_AXI_INTC_0_DEVICE_ID);
 	if (status != XST_SUCCESS) return XST_FAILURE;
 
 	return XST_SUCCESS;
 }
 
 
-void initialize_gpio()
-{
+void initialize_gpio(){
 	if (XST_DEVICE_NOT_FOUND == XGpio_Initialize(&gpSwitch, GPIO_SW_DEVICE_ID)) UCOS_Print("Erreur init gpio\n");
 	XGpio_InterruptGlobalEnable(&gpSwitch);
 	XGpio_InterruptEnable(&gpSwitch, XGPIO_IR_MASK);
@@ -49,8 +45,7 @@ void init_interrupt() {
 	 UCOS_StdInOutInit();
 }
 
-int connect_gpio_irq()
-{
+int connect_gpio_irq(){
 	int status = XIntc_Connect(&axi_intc, GPIO_SW_IRQ_ID, gpio_isr, &gpSwitch);
 	if (status != XST_SUCCESS) return status;
 	XIntc_Enable(&axi_intc, GPIO_SW_IRQ_ID);
@@ -58,10 +53,8 @@ int connect_gpio_irq()
 }
 
 
-int connect_fit_timer_1s_irq() {
-	int status;
-
-	status = XIntc_Connect(&axi_intc, FIT_1S_IRQ_ID, fit_1s_isr, NULL);
+int connect_fit_timer_1s_irq(){
+	int status = XIntc_Connect(&axi_intc, FIT_1S_IRQ_ID, fit_1s_isr, NULL);
 
 	if (status != XST_SUCCESS) return status;
 
@@ -69,20 +62,17 @@ int connect_fit_timer_1s_irq() {
 	return XST_SUCCESS;
 }
 
-int connect_fit_timer_3s_irq() {
-	int status;
-
-	status = XIntc_Connect(&axi_intc, FIT_3S_IRQ_ID, fit_3s_isr, NULL);
-
+int connect_fit_timer_3s_irq(){
+	int status = XIntc_Connect(&axi_intc, FIT_3S_IRQ_ID, fit_3s_isr, NULL);
 	if (status != XST_SUCCESS) return status;
 
 	XIntc_Enable(&axi_intc, FIT_3S_IRQ_ID);
 	return XST_SUCCESS;
 }
 
-void connect_axi() {
+void connect_axi(){
 	CPU_BOOLEAN succes = UCOS_IntVectSet (PL_INTC_IRQ_ID, 1, 0, (UCOS_INT_FNCT_PTR)XIntc_DeviceInterruptHandler, (void*)(uint32_t)axi_intc.CfgPtr->DeviceId);
-	if(succes != DEF_OK) UCOS_Print ("enable axi : FAIL \n");
+	if(succes != DEF_OK) UCOS_Print ("Enable axi : FAILED \n");
 	connect_gpio_irq();
 	connect_fit_timer_1s_irq();
 	connect_fit_timer_3s_irq();
@@ -90,11 +80,8 @@ void connect_axi() {
 	XIntc_Start(&axi_intc, XIN_REAL_MODE);
 }
 
-void cleanup() {
-	/*
-	 * Deconnecte et desactive toutes les interruptions.
-	 */
-
+void cleanup(){
+	// Deconnecte et desactive toutes les interruptions
 	disconnect_intc_irq();
 	disconnect_fit_timer_1s_irq();
 	disconnect_fit_timer_3s_irq();
@@ -114,7 +101,6 @@ void disconnect_fit_timer_3s_irq() {
 	XIntc_Disable(&axi_intc, FIT_3S_IRQ_ID);
 	XIntc_Disconnect(&axi_intc, FIT_3S_IRQ_ID);
 }
-
 
 ///////////////////////////////////////////////////////////////////////////
 //						End of Interrupt Section

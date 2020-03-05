@@ -2231,3 +2231,1036 @@ At top level:
   static OS_TCB verificationTCB;
                 ^~~~~~~~~~~~~~~
 make: *** [src/subdir.mk:26: src/simAvion.o] Error 1
+12:05:21 **** Auto Build of project ucos_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/intc_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/intc_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_common_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_emacps_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_osiii_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scuc_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_standalone_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_uartps_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_usbps_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ucos_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_44/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/intc_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/intc_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_common_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_common_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uC/OS Common Components"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_emacps_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_emacps_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_l2cachec_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ucos_scuc"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_osiii_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_osiii_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uC/OS-III"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scuc_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scuc_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ucos_l2cachec"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_scutimer_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_scutimer_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_standalone_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_standalone_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+inbyte.c: In function 'inbyte':
+inbyte.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_ttcps_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_ttcps_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ucos_ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_uartps_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_uartps_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ucos_emacps"
+ucos_uartps.c: In function 'UARTPS_BaudRateSet':
+ucos_uartps.c:476:19: warning: 'best_baud_rate_gen' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     uart_ps->BAUD = best_baud_rate_gen;
+     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+ucos_uartps.c:477:23: warning: 'best_baud_div' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     uart_ps->BAUD_DIV = best_baud_div;
+     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_usbps_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_usbps_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ucos_usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ucos_v1_44/src"
+make -C ps7_cortexa9_0/libsrc/ucos_v1_44/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uC/OS"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+12:05:49 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+../src/bsp_init.c: In function 'initialize_axi_intc':
+../src/bsp_init.c:25:11: warning: implicit declaration of function 'Xintc_Initialize'; did you mean 'XIntc_Initialize'? [-Wimplicit-function-declaration]
+  status = Xintc_Initialize(&axi_intc, XPAR_AXI_INTC_0_DEVICE_ID);
+           ^~~~~~~~~~~~~~~~
+           XIntc_Initialize
+../src/bsp_init.c: In function 'initialize_gpio':
+../src/bsp_init.c:34:30: warning: implicit declaration of function 'XGpio_Initialize'; did you mean 'XIntc_Initialize'? [-Wimplicit-function-declaration]
+  if (XST_DEVICE_NOT_FOUND == XGpio_Initialize(&gpSwitch, GPIO_SW_DEVICE_ID)) UCOS_Print("Erreur init gpio\n");
+                              ^~~~~~~~~~~~~~~~
+                              XIntc_Initialize
+../src/bsp_init.c:35:2: warning: implicit declaration of function 'XGpio_InterruptGlobalEnable'; did you mean 'XIntc_InterruptHandler'? [-Wimplicit-function-declaration]
+  XGpio_InterruptGlobalEnable(&gpSwitch);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+  XIntc_InterruptHandler
+../src/bsp_init.c:36:2: warning: implicit declaration of function 'XGpio_InterruptEnable'; did you mean 'XGpioPs_IntrGetEnabled'? [-Wimplicit-function-declaration]
+  XGpio_InterruptEnable(&gpSwitch, XGPIO_IR_MASK);
+  ^~~~~~~~~~~~~~~~~~~~~
+  XGpioPs_IntrGetEnabled
+'Finished building: ../src/bsp_init.c'
+' '
+'Building file: ../src/simAvion.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/simAvion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/simAvion.d" -MT"src/simAvion.o" -o "src/simAvion.o" "../src/simAvion.c"
+In file included from ../src/simAvion.c:18:0:
+../src/simAvion.h:87:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'enum'
+ enum Aeroport { YUL, YYZ, YVR, PEK, DBX, LGA, HND, LAX, CDG, AMS, NB_AEROPORTS };
+ ^~~~
+../src/simAvion.c: In function 'initialize_gpio':
+../src/simAvion.c:44:2: error: 'bsp_init' undeclared (first use in this function); did you mean 'isprint'?
+  bsp_init.initialize_gpio();
+  ^~~~~~~~
+  isprint
+../src/simAvion.c:44:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/simAvion.c: In function 'create_tasks':
+../src/simAvion.c:100:16: warning: unused variable 'verificationTCB' [-Wunused-variable]
+  static OS_TCB verificationTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:99:16: warning: unused variable 'statistiquesTCB' [-Wunused-variable]
+  static OS_TCB statistiquesTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:98:16: warning: unused variable 'decollageTCB' [-Wunused-variable]
+  static OS_TCB decollageTCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:97:16: warning: unused variable 'terminal1TCB' [-Wunused-variable]
+  static OS_TCB terminal1TCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:96:16: warning: unused variable 'terminal0TCB' [-Wunused-variable]
+  static OS_TCB terminal0TCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:95:16: warning: unused variable 'atterrissageTCB' [-Wunused-variable]
+  static OS_TCB atterrissageTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:94:16: warning: unused variable 'generationTCB' [-Wunused-variable]
+  static OS_TCB generationTCB;
+                ^~~~~~~~~~~~~
+../src/simAvion.c:91:17: warning: unused variable 'verificationStk' [-Wunused-variable]
+  static CPU_STK verificationStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~
+../src/simAvion.c:90:17: warning: unused variable 'statistiquesStk' [-Wunused-variable]
+  static CPU_STK statistiquesStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~
+../src/simAvion.c:89:17: warning: unused variable 'decollageStk' [-Wunused-variable]
+  static CPU_STK decollageStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:88:17: warning: unused variable 'terminal1Stk' [-Wunused-variable]
+  static CPU_STK terminal1Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:87:17: warning: unused variable 'terminal0Stk' [-Wunused-variable]
+  static CPU_STK terminal0Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:86:17: warning: unused variable 'atterrissage0Stk' [-Wunused-variable]
+  static CPU_STK atterrissage0Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~~
+../src/simAvion.c:85:17: warning: unused variable 'generationStk' [-Wunused-variable]
+  static CPU_STK generationStk[TASK_STK_SIZE]; //Stack of each task
+                 ^~~~~~~~~~~~~
+../src/simAvion.c: In function 'create_events':
+../src/simAvion.c:111:9: warning: unused variable 'err' [-Wunused-variable]
+  OS_ERR err;
+         ^~~
+../src/simAvion.c: In function 'generation':
+../src/simAvion.c:127:9: warning: unused variable 'err' [-Wunused-variable]
+  OS_ERR err;
+         ^~~
+../src/simAvion.c: In function 'atterrissage':
+../src/simAvion.c:159:1: error: expected statement before ']' token
+ ] xil_printf("Tache atterrissage lancee\n");
+ ^
+../src/simAvion.c:158:9: warning: unused variable 'avion' [-Wunused-variable]
+  Avion* avion = NULL;
+         ^~~~~
+../src/simAvion.c:156:14: warning: unused variable 'msg_size' [-Wunused-variable]
+  OS_MSG_SIZE msg_size;
+              ^~~~~~~~
+../src/simAvion.c:155:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c: At top level:
+../src/simAvion.c:171:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/simAvion.c: In function 'terminal':
+../src/simAvion.c:178:20: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int numTerminal = (int*)data;
+                    ^
+../src/simAvion.c:177:14: warning: unused variable 'msg_size' [-Wunused-variable]
+  OS_MSG_SIZE msg_size;
+              ^~~~~~~~
+../src/simAvion.c:176:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c: In function 'decollage':
+../src/simAvion.c:206:9: warning: unused variable 'avion' [-Wunused-variable]
+  Avion* avion = NULL;
+         ^~~~~
+../src/simAvion.c:204:14: warning: unused variable 'msg_size' [-Wunused-variable]
+  OS_MSG_SIZE msg_size;
+              ^~~~~~~~
+../src/simAvion.c:203:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c: In function 'statistiques':
+../src/simAvion.c:221:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c:220:9: warning: unused variable 'err' [-Wunused-variable]
+  OS_ERR err;
+         ^~~
+../src/simAvion.c: In function 'verification':
+../src/simAvion.c:249:9: warning: unused variable 'ts' [-Wunused-variable]
+  CPU_TS ts;
+         ^~
+../src/simAvion.c:248:9: warning: unused variable 'err' [-Wunused-variable]
+  OS_ERR err;
+         ^~~
+At top level:
+../src/simAvion.c:85:17: warning: 'generationStk' defined but not used [-Wunused-variable]
+  static CPU_STK generationStk[TASK_STK_SIZE]; //Stack of each task
+                 ^~~~~~~~~~~~~
+../src/simAvion.c:86:17: warning: 'atterrissage0Stk' defined but not used [-Wunused-variable]
+  static CPU_STK atterrissage0Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~~
+../src/simAvion.c:87:17: warning: 'terminal0Stk' defined but not used [-Wunused-variable]
+  static CPU_STK terminal0Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:88:17: warning: 'terminal1Stk' defined but not used [-Wunused-variable]
+  static CPU_STK terminal1Stk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:89:17: warning: 'decollageStk' defined but not used [-Wunused-variable]
+  static CPU_STK decollageStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~
+../src/simAvion.c:90:17: warning: 'statistiquesStk' defined but not used [-Wunused-variable]
+  static CPU_STK statistiquesStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~
+../src/simAvion.c:91:17: warning: 'verificationStk' defined but not used [-Wunused-variable]
+  static CPU_STK verificationStk[TASK_STK_SIZE];
+                 ^~~~~~~~~~~~~~~
+../src/simAvion.c:94:16: warning: 'generationTCB' defined but not used [-Wunused-variable]
+  static OS_TCB generationTCB;
+                ^~~~~~~~~~~~~
+../src/simAvion.c:95:16: warning: 'atterrissageTCB' defined but not used [-Wunused-variable]
+  static OS_TCB atterrissageTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:96:16: warning: 'terminal0TCB' defined but not used [-Wunused-variable]
+  static OS_TCB terminal0TCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:97:16: warning: 'terminal1TCB' defined but not used [-Wunused-variable]
+  static OS_TCB terminal1TCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:98:16: warning: 'decollageTCB' defined but not used [-Wunused-variable]
+  static OS_TCB decollageTCB;
+                ^~~~~~~~~~~~
+../src/simAvion.c:99:16: warning: 'statistiquesTCB' defined but not used [-Wunused-variable]
+  static OS_TCB statistiquesTCB;
+                ^~~~~~~~~~~~~~~
+../src/simAvion.c:100:16: warning: 'verificationTCB' defined but not used [-Wunused-variable]
+  static OS_TCB verificationTCB;
+                ^~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/simAvion.o] Error 1
+12:06:35 **** Incremental Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:07:41 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:09:25 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:10:02 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:11:03 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:17:31 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:17:45 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:20:29 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:22:35 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:23:54 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:23:55 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:34:40 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:40:01 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:40:02 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:41:15 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:42:01 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:46:53 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+12:47:18 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+13:04:00 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+13:28:07 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+13:39:12 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+13:55:13 **** Incremental Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+13:55:17 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+13:55:45 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+13:55:47 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+14:23:05 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+15:25:21 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+15:36:36 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+15:37:21 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+15:51:51 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+15:53:27 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+15:54:03 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+15:54:36 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+15:54:42 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+15:57:29 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:03:50 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:09:10 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:09:20 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:09:30 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:14:11 **** Incremental Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:15:19 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:16:26 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:17:04 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:18:21 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:18:32 **** Incremental Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:19:27 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:2:10: fatal error: cpu.h: No such file or directory
+ #include <cpu.h>
+          ^~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:19:46 **** Incremental Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:2:10: fatal error: cpu.h: No such file or directory
+ #include <cpu.h>
+          ^~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:19:59 **** Incremental Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:2:10: fatal error: cpu.h: No such file or directory
+ #include <cpu.h>
+          ^~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:21:08 **** Incremental Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:2:10: fatal error: cpu.h: No such file or directory
+ #include <cpu.h>
+          ^~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:22:07 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:2:10: fatal error: ucos_bsp.h: No such file or directory
+ #include <ucos_bsp.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:23:03 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:2:10: fatal error: xscugic.h: No such file or directory
+ #include <xscugic.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:23:09 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:2:10: fatal error: xintc.h: No such file or directory
+ #include <xintc.h>
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:23:13 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:3:10: fatal error: xgpio.h: No such file or directory
+ #include <xgpio.h>
+          ^~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+16:23:23 **** Auto Build of configuration Debug for project Lab2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/bsp_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
+In file included from ../src/bsp_init.c:1:0:
+../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
+ #include <app_cfg.h>
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
