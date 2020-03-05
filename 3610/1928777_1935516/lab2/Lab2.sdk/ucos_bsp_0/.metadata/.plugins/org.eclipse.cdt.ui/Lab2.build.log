@@ -1,16 +1,89 @@
-16:23:23 **** Auto Build of configuration Debug for project Lab2 ****
+17:05:46 **** Auto Build of configuration Debug for project Lab2 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/bsp_init.c'
+'Building file: ../src/simAvion.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bsp_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/bsp_init.d" -MT"src/bsp_init.o" -o "src/bsp_init.o" "../src/bsp_init.c"
-In file included from ../src/bsp_init.c:1:0:
-../src/bsp_init.h:1:10: fatal error: app_cfg.h: No such file or directory
- #include <app_cfg.h>
-          ^~~~~~~~~~~
-compilation terminated.
-make: *** [src/subdir.mk:26: src/bsp_init.o] Error 1
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/simAvion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/simAvion.d" -MT"src/simAvion.o" -o "src/simAvion.o" "../src/simAvion.c"
+In file included from ../src/simAvion.c:18:0:
+../src/simAvion.h:149:13: error: unknown type name 'INT8U'; did you mean 'INT8_C'?
+ void errMsg(INT8U err, char* errMSg);
+             ^~~~~
+             INT8_C
+In file included from ../../ucos_bsp_0/ps7_cortexa9_0/include/xil_io.h:61:0,
+                 from ../../ucos_bsp_0/ps7_cortexa9_0/include/xgpiops_hw.h:63,
+                 from ../../ucos_bsp_0/ps7_cortexa9_0/include/xgpiops.h:120,
+                 from ../src/bsp_init.h:9,
+                 from ../src/simAvion.c:20:
+../../ucos_bsp_0/ps7_cortexa9_0/include/xil_printf.h:40:6: error: conflicting types for 'print'
+ void print( const char8 *ptr);
+      ^~~~~
+In file included from ../src/simAvion.c:18:0:
+../src/simAvion.h:150:6: note: previous declaration of 'print' was here
+ void print(char* msg);
+      ^~~~~
+../src/simAvion.c: In function 'fit_timer_1s_isr':
+../src/simAvion.c:38:2: warning: implicit declaration of function 'errMsg' [-Wimplicit-function-declaration]
+  errMsg(err, "Erreur lors du post de semGen.");
+  ^~~~~~
+../src/simAvion.c: In function 'gpio_isr':
+../src/simAvion.c:56:23: warning: passing argument 1 of 'XGpio_InterruptClear' from incompatible pointer type [-Wincompatible-pointer-types]
+  XGpio_InterruptClear(&gpSwitch, XGPIO_IR_MASK);
+                       ^
+In file included from ../src/simAvion.c:25:0:
+../../ucos_bsp_0/ps7_cortexa9_0/include/xgpio.h:201:6: note: expected 'XGpio * {aka struct <anonymous> *}' but argument is of type 'XGpioPs * {aka struct <anonymous> *}'
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/simAvion.c: In function 'atterrissage':
+../src/simAvion.c:255:16: warning: implicit declaration of function 'OSQAccept' [-Wimplicit-function-declaration]
+   if ((avion = OSQAccept(Q_atterrissage_high, &err)) != NULL) {
+                ^~~~~~~~~
+../src/simAvion.c:255:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   if ((avion = OSQAccept(Q_atterrissage_high, &err)) != NULL) {
+              ^
+../src/simAvion.c:265:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   else if ((avion = OSQAccept(Q_atterrissage_medium, &err)) != NULL) {
+                   ^
+../src/simAvion.c:275:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   else if ((avion = OSQAccept(Q_atterrissage_low, &err)) != NULL) {
+                   ^
+../src/simAvion.c:287:56: warning: comparison between pointer and integer
+   if ((avion != NULL && OSQAccept(Q_terminal_1, &err)) == NULL) {
+                                                        ^~
+../src/simAvion.c:293:56: warning: comparison between pointer and integer
+   if ((avion != NULL && OSQAccept(Q_terminal_2, &err)) == NULL) {
+                                                        ^~
+../src/simAvion.c:249:14: warning: unused variable 'msg_size' [-Wunused-variable]
+  OS_MSG_SIZE msg_size;
+              ^~~~~~~~
+../src/simAvion.c: In function 'terminal':
+../src/simAvion.c:307:20: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int numTerminal = (int*)data;
+                    ^
+../src/simAvion.c: In function 'longueurFile':
+../src/simAvion.c:407:2: error: unknown type name 'OS_Q_DATA'; did you mean 'OS_STATE'?
+  OS_Q_DATA donnee;
+  ^~~~~~~~~
+  OS_STATE
+../src/simAvion.c:408:2: warning: implicit declaration of function 'OSQQuery'; did you mean 'OS_QClr'? [-Wimplicit-function-declaration]
+  OSQQuery(q, &donnee, &err);
+  ^~~~~~~~
+  OS_QClr
+../src/simAvion.c:410:15: error: request for member 'OSNMsgs' in something not a structure or union
+  return donnee.OSNMsgs;
+               ^
+../src/simAvion.c: At top level:
+../src/simAvion.c:461:6: warning: conflicting types for 'errMsg'
+ void errMsg(OS_ERR  err, char* errMsg){
+      ^~~~~~
+../src/simAvion.c:38:2: note: previous implicit declaration of 'errMsg' was here
+  errMsg(err, "Erreur lors du post de semGen.");
+  ^~~~~~
+../src/simAvion.c: In function 'longueurFile':
+../src/simAvion.c:411:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/simAvion.o] Error 1
 
-16:23:23 Build Finished (took 305ms)
+17:05:46 Build Finished (took 362ms)
 
