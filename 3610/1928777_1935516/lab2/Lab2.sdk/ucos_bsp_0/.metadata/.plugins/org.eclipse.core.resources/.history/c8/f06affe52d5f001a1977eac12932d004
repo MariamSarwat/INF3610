@@ -13,7 +13,6 @@
 #include <inttypes.h>
 #include <stdbool.h>
 
-
 /*
 *********************************************************************************************************
 *                                              CONSTANTS
@@ -147,7 +146,6 @@ void decollage(void *data);
 void remplirAvion(Avion* avion);
 void statistiques(void *data);
 void verification(void* data);
-void errMsg(OS_ERR err, char* errMSg);
+void errMsg(INT8U err, char* errMSg);
 void print(char* msg);
-
 #endif /* SRC_SIMAVION_H_ */

@@ -1,15 +1,10 @@
-17:05:46 **** Auto Build of configuration Debug for project Lab2 ****
+17:18:25 **** Auto Build of configuration Debug for project Lab2 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 'Building file: ../src/simAvion.c'
 'Invoking: ARM v7 gcc compiler'
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/simAvion.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ucos_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/simAvion.d" -MT"src/simAvion.o" -o "src/simAvion.o" "../src/simAvion.c"
-In file included from ../src/simAvion.c:18:0:
-../src/simAvion.h:149:13: error: unknown type name 'INT8U'; did you mean 'INT8_C'?
- void errMsg(INT8U err, char* errMSg);
-             ^~~~~
-             INT8_C
 In file included from ../../ucos_bsp_0/ps7_cortexa9_0/include/xil_io.h:61:0,
                  from ../../ucos_bsp_0/ps7_cortexa9_0/include/xgpiops_hw.h:63,
                  from ../../ucos_bsp_0/ps7_cortexa9_0/include/xgpiops.h:120,
@@ -19,13 +14,9 @@ In file included from ../../ucos_bsp_0/ps7_cortexa9_0/include/xil_io.h:61:0,
  void print( const char8 *ptr);
       ^~~~~
 In file included from ../src/simAvion.c:18:0:
-../src/simAvion.h:150:6: note: previous declaration of 'print' was here
+../src/simAvion.h:151:6: note: previous declaration of 'print' was here
  void print(char* msg);
       ^~~~~
-../src/simAvion.c: In function 'fit_timer_1s_isr':
-../src/simAvion.c:38:2: warning: implicit declaration of function 'errMsg' [-Wimplicit-function-declaration]
-  errMsg(err, "Erreur lors du post de semGen.");
-  ^~~~~~
 ../src/simAvion.c: In function 'gpio_isr':
 ../src/simAvion.c:56:23: warning: passing argument 1 of 'XGpio_InterruptClear' from incompatible pointer type [-Wincompatible-pointer-types]
   XGpio_InterruptClear(&gpSwitch, XGPIO_IR_MASK);
@@ -72,18 +63,10 @@ In file included from ../src/simAvion.c:25:0:
 ../src/simAvion.c:410:15: error: request for member 'OSNMsgs' in something not a structure or union
   return donnee.OSNMsgs;
                ^
-../src/simAvion.c: At top level:
-../src/simAvion.c:461:6: warning: conflicting types for 'errMsg'
- void errMsg(OS_ERR  err, char* errMsg){
-      ^~~~~~
-../src/simAvion.c:38:2: note: previous implicit declaration of 'errMsg' was here
-  errMsg(err, "Erreur lors du post de semGen.");
-  ^~~~~~
-../src/simAvion.c: In function 'longueurFile':
 ../src/simAvion.c:411:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
 make: *** [src/subdir.mk:26: src/simAvion.o] Error 1
 
-17:05:46 Build Finished (took 362ms)
+17:18:25 Build Finished (took 363ms)
 
