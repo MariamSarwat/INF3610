@@ -1,5 +1,0 @@
-11:52:13 INFO  : Registering command handlers for SDK TCF services
-11:52:14 INFO  : Launching XSCT server: xsct.bat -interactive C:\TEMP\INF3610\3610\1928777_1935516\lab2\Lab2.sdk\ucos_bsp_0\Lab2\temp_xsdb_launch_script.tcl
-11:52:16 INFO  : XSCT server has started successfully.
-11:52:16 INFO  : Successfully done setting XSCT server connection channel  
-11:52:16 INFO  : Successfully done setting SDK workspace  

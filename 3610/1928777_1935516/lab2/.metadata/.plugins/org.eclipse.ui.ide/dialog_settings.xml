@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-		<item value="C:\TEMP\INF3610\src"/>
-	</list>
-	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
-		<item value="C:\TEMP\INF3610\3610\1928777_1935516\lab2\Lab2.sdk" key="OUTSIDE_LOCATION"/>
-	</section>
-</section>
